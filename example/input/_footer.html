@@ -5,3 +5,13 @@
 @props{{"test":"function(){console.log('Side effect'); return 'Return value of a function';}"}}@
 
 @display{test}@
+
+
+@props{{"testA":"true"}}@
+@props{{"testB":"function(){if(props.testA === 'true') return 'T'; else return 'F';}"}}@
+
+@display{testA}@
+@display{testB}@
+
+
+@display{{"key":"MissingKEY","default":"FALLBACK"}}@
