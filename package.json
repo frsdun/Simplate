@@ -2,10 +2,13 @@
   "name": "simplate",
   "version": "0.1.0",
   "description": "A simple html template script",
+  "author": "https://github.com/frsdun",
+  "license": "MIT",
+  "homepage": "https://github.com/frsdun/simplate#readme",
   "file": [
     "lib/"
   ],
-  "main": "index.js",
+  "main": "lib/simplate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,10 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/frsdun/simplate.git"
   },
-  "author": "https://github.com/frsdun",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/frsdun/simplate/issues"
-  },
-  "homepage": "https://github.com/frsdun/simplate#readme"
+  }
 }
